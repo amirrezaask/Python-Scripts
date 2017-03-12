@@ -7,12 +7,10 @@ import Cookie
 import cookielib
 from bs4 import BeautifulSoup
 student_page = requests.get("http://kish.sharif.edu/bs_email_tic.php")
-#student_id = re.findall("([95])\d+",student_page.text)
-#student_id = ''.join(chr(i) for i in student_id)
+
 
 
 #print student_page.text
-print "Once Again Haj_amir In the Seen"
 cookiejar =cookielib.LWPCookieJar()
 br = Browser()
 br.set_handle_robots(False)
@@ -36,5 +34,4 @@ if ".pdf" in page:
         br2.retrieve(link.url,"hw_{}.pdf".format(sys.argv[1]))
 
 else:
-    print "We Are Anonymous, We Are Legion, We Do Not Forgive, We Do Not Forget"
-    print "Dosstemoon hanooz upload nakarde !!"
+    print "not Uploaded yet"
