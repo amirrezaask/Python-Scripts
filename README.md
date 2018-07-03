@@ -1,4 +1,4 @@
-# Python-Scripts
+# Python-Sharif-Scripts
 
 ### Python Scripts for various tasks :
 #####    FuxCW : Logs in to cw.sharif.ir .
